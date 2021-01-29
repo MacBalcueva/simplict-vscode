@@ -1,21 +1,45 @@
 {
-    "name": "simplict",
-    "displayName": "simpliCT",
-    "description": "Simple color theme for VS Code!",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "simpliCT",
-                "uiTheme": "vs-dark",
-                "path": "./themes/simpliCT-color-theme.json"
-            }
-        ]
-    }
+	"name": "simplict",
+	"displayName": "simpliCT",
+	"description": "Simple color theme for VS Code!",
+	"publisher": "MacBalcueva",
+	"author": {
+		"name": "Mac Balcueva"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MacBalcueva/simplict"
+	},
+	"bugs": {
+		"url": "https://github.com/MacBalcueva/simplict/issues",
+		"email": "mj.balcueva.3@gmail.com"
+	},
+	"galleryBanner": {
+		"color": "#0a0e14",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark theme",
+		"color theme",
+		"simplict",
+		"simple color theme",
+		"color theme",
+		"ayu"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "simpliCT",
+				"uiTheme": "vs-dark",
+				"path": "./themes/simpliCT-color-theme.json"
+			}
+		]
+	}
 }
