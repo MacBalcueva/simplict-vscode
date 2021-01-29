@@ -1,0 +1,21 @@
+{
+    "name": "simplict",
+    "displayName": "simpliCT",
+    "description": "Simple color theme for VS Code!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "simpliCT",
+                "uiTheme": "vs-dark",
+                "path": "./themes/simpliCT-color-theme.json"
+            }
+        ]
+    }
+}
