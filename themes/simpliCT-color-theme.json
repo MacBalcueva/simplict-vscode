@@ -2,10 +2,52 @@
 	"name": "simpliCT",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"focusBorder": "#b2b2b235",
+		"foreground": "#b2b2b2",
+		"selection.background": "#b2b2b235",
+		"descriptionForeground": "#b2b2b2",
+		"icon.foreground": "#b2b2b2",
+		"sash.hoverBorder": "#ccb43e",
+
+		"button.background": "#ccb43e",
+		"button.foreground": "#06090c",
+		"checkbox.background": "#192126",
+		"checkbox.foreground": "#b2b2b2",
+
+		"dropdown.background": "#192126",
+		"dropdown.foreground": "#b2b2b2",
+		"dropdown.border": "#10161c",
+		"input.background": "#192126",
+		"input.border": "#10161c",
+
+		"editor.background": "#10161c",
+		"editor.foreground": "#b2b2b2",
+
+		"activityBar.background": "#06090c",
+		"activityBar.foreground": "#b2b2b2",
+		"activityBarBadge.background": "#ccb43e",
+		"activityBarBadge.foreground": "#06090c",
+
+		"sideBar.background": "#0b1015", // sc
+		"sideBarTitle.foreground": "#b2b2b2",
+		"sideBarSectionHeader.background": "#06090c",
+
+		"editorGroup.dropBackground": "#ccb43e50",
+		"editorGroupHeader.tabsBackground": "#0b1015",
+		"tab.activeBackground": "#10161c",
+		"tab.activeForeground": "#b2b2b2",
+		"tab.activeBorder": "#10161c",
+		"tab.inactiveBackground": "#0b1015", // sc
+
+		"editorWidget.background": "#10161c",
+		"statusBar.background": "#06090c",
+
+		"titleBar.activeBackground": "#06090c",
+		"titleBar.activeForeground": "#6d777c",
+		"titleBar.inactiveBackground": "#06090c",
+		"titleBar.inactiveForeground": "#6d777c",
+
+		"terminal.background": "#0b1015"
 	},
 	"tokenColors": [
 		{
