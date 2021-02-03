@@ -143,7 +143,12 @@
 		},
 		{
 			"name": "Class",
-			"scope": ["entity.name.type.class", "support.class.builtin", "entity.name.type"],
+			"scope": [
+				"entity.name.type.class",
+				"support.class.builtin",
+				"entity.name.type",
+				"support.constant.math"
+			],
 			"settings": { "foreground": "#aa7ee1" }
 		},
 		{
