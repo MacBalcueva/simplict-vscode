@@ -152,6 +152,11 @@
 			"settings": { "foreground": "#aa7ee1" }
 		},
 		{
+			"name": "new",
+			"scope": ["keyword.operator.new"],
+			"settings": { "foreground": "#e09316" }
+		},
+		{
 			"name": "conditionals",
 			"scope": ["keyword.control.conditional", "keyword.operator.ternary"],
 			"settings": { "foreground": "#df6f75" }
