@@ -101,15 +101,15 @@
 			"scope": ["storage"],
 			"settings": { "foreground": "#e09316" }
 		},
-		{
-			"name": "storage modifier",
-			"scope": ["storage.modifier"],
-			"settings": { "fontStyle": "italic" }
-		},
+		// {
+		// 	"name": "storage modifier",
+		// 	"scope": ["storage.modifier"],
+		// 	"settings": { "fontStyle": "italic" }
+		// },
 		{
 			"name": "control flow",
 			"scope": ["keyword.control.flow"],
-			"settings": { "fontStyle": "italic", "foreground": "#aa7ee1" }
+			"settings": { "foreground": "#aa7ee1" }
 		},
 		{
 			"name": "variable name",
@@ -195,6 +195,11 @@
 			"name": "this",
 			"scope": ["variable.language.this"],
 			"settings": { "fontStyle": "italic", "foreground": "#ff79c6" }
+		},
+		{
+			"name": "super",
+			"scope": ["variable.language.super"],
+			"settings": { "fontStyle": "italic", "foreground": "#00b7e5" }
 		},
 		{
 			"name": "modifier",
@@ -504,6 +509,8 @@
 		"panelTitle.activeBorder": "#b2b2b2",
 		"statusBar.background": "#06090c",
 		"statusBar.foreground": "#6d777c",
+		"statusBar.debuggingBackground": "#06090c",
+		"statusBar.debuggingForeground": "#6d777c",
 		"statusBar.noFolderBackground": "#06090c",
 		"statusBar.noFolderForeground": "#6d777c",
 		"statusBarItem.hoverBackground": "#b2b2b230",
