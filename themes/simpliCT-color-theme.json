@@ -199,7 +199,7 @@
 		{
 			"name": "super",
 			"scope": ["variable.language.super"],
-			"settings": { "fontStyle": "italic", "foreground": "#00b7e5" }
+			"settings": { "foreground": "#ff79c6" }
 		},
 		{
 			"name": "modifier",

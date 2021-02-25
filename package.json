@@ -30,8 +30,7 @@
 		"color theme",
 		"simplict",
 		"simple color theme",
-		"color theme",
-		"ayu"
+		"color theme"
 	],
 	"contributes": {
 		"themes": [
