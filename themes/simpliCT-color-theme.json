@@ -64,8 +64,13 @@
 			"settings": { "foreground": "#6ff576" }
 		},
 		{
-			"name": "seperator",
-			"scope": ["punctuation.separator.list.comma"],
+			"name": "variable",
+			"scope": ["variable.css", "variable.argument.css"],
+			"settings": { "fontStyle": "italic", "foreground": "#ff79c6" }
+		},
+		{
+			"name": "punctuation",
+			"scope": ["punctuation.separator.list.comma", "punctuation.section.function"],
 			"settings": { "foreground": "#d1d1d1" }
 		},
 		{
@@ -117,6 +122,11 @@
 			"settings": { "foreground": "#00b7e5" }
 		},
 		{
+			"name": "variable object",
+			"scope": ["variable.other.constant.object"],
+			"settings": { "foreground": "#ff79c6" }
+		},
+		{
 			"name": "object key",
 			"scope": ["meta.object-literal"],
 			"settings": { "foreground": "#aa7ee1" }
@@ -150,6 +160,11 @@
 				"support.constant.math"
 			],
 			"settings": { "foreground": "#aa7ee1" }
+		},
+		{
+			"name": "Error",
+			"scope": ["support.class.error"],
+			"settings": { "foreground": "#ff79c6" }
 		},
 		{
 			"name": "new",
@@ -194,11 +209,16 @@
 		{
 			"name": "this",
 			"scope": ["variable.language.this"],
-			"settings": { "fontStyle": "italic", "foreground": "#ff79c6" }
+			"settings": { "foreground": "#ff79c6" }
 		},
 		{
 			"name": "super",
 			"scope": ["variable.language.super"],
+			"settings": { "foreground": "#ff79c6" }
+		},
+		{
+			"name": "Promise",
+			"scope": ["support.class.promise"],
 			"settings": { "foreground": "#ff79c6" }
 		},
 		{
